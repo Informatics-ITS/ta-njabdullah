@@ -1,10 +1,10 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: [Nama Lengkap]  
-**NRP**: [Nomor Registrasi Pokok]  
-**Judul TA**: [Judul Tugas Akhir]  
-**Dosen Pembimbing**: [Nama Dosen]  
-**Dosen Ko-pembimbing**: [Nama Dosen]
+**Nama Mahasiswa**: Abdullah Nasih Jasir  
+**NRP**: 5025211111  
+**Judul TA**: Penemuan Kembali Informasi pada Al-Qur'an dengan Metode Klastering  
+**Dosen Pembimbing**: Ratih Nur Esti Anggraini, S.Kom., M.Sc., Ph.D.  
+**Dosen Ko-pembimbing**: Dr. Sarwosri, S.Kom., M.T.
 
 ---
 
@@ -16,60 +16,45 @@ Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):
 
 ---
 
-*Konten selanjutnya hanya merupakan contoh awalan yang baik. Anda dapat berimprovisasi bila diperlukan.*
-
 ## 🛠 Panduan Instalasi & Menjalankan Software  
 
 ### Prasyarat  
 - Daftar dependensi (contoh):
-  - Python 3.10+
-  - Node.js v18+
-  - MySQL 8.0
-  - [Lainnya...]
+  - beautifulsoup4==4.13.4
+  - gensim==4.3.3
+  - joblib==1.4.0
+  - nltk==3.8.1
+  - numpy==2.3.1
+  - pandas==2.3.1
+  - PySastrawi==1.2.0
+  - Sastrawi==1.0.1
+  - scikit_learn==1.4.2
+  - scipy==1.10.1
+  - selenium==4.34.2
+  - streamlit==1.31.1
+  - webdriver_manager==4.0.2
 
 ### Langkah-langkah  
 1. **Clone Repository**  
    ```bash
-   git clone https://github.com/Informatics-ITS/TA.git
+   git clone https://github.com/Informatics-ITS/ta-njabdullah
    ```
 2. **Instalasi Dependensi**
    ```bash
-   cd [folder-proyek]
-   pip install -r requirements.txt  # Contoh untuk Python
-   npm install  # Contoh untuk Node.js
+   cd ta-njabdullah
+   pip install -r requirements.txt  
    ```
-3. **Konfigurasi**
-- Salin/rename file .env.example menjadi .env
-- Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.)
-4. **Jalankan Aplikasi**
+3. **Jalankan Aplikasi**
    ```bash
-   python main.py  # Contoh untuk Python
-   npm start      # Contoh untuk Node.js
+   streamlit run VisualDashboard.py
    ```
-5. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
-
----
-
-## 📚 Dokumentasi Tambahan
-
-- [![Dokumentasi API]](docs/api.md)
-- [![Diagram Arsitektur]](docs/architecture.png)
-- [![Struktur Basis Data]](docs/database_schema.sql)
-
----
-
-## ✅ Validasi
-
-Pastikan proyek memenuhi kriteria berikut sebelum submit:
-- Source code dapat di-build/run tanpa error
-- Video demo jelas menampilkan fitur utama
-- README lengkap dan terupdate
-- Tidak ada data sensitif (password, API key) yang ter-expose
+4. Buka browser dan kunjungi: `http://localhost:8501`  
 
 ---
 
 ## ⁉️ Pertanyaan?
 
 Hubungi:
-- Penulis: [email@mahasiswa]
-- Pembimbing Utama: [email@pembimbing]
+- Penulis: -
+- Pembimbing Utama: ratih_nea@if.its.ac.id
+- Pembimbing Kedua: sarwosri@if.its.ac.id
