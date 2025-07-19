@@ -18,7 +18,7 @@
 ## 🛠 Panduan Instalasi & Menjalankan Software  
 
 ### Prasyarat  
-- Daftar dependensi (contoh):
+- Daftar dependensi:
   - beautifulsoup4==4.13.4
   - gensim==4.3.3
   - joblib==1.4.0
